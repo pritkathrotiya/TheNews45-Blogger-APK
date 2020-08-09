@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/btn_star"
+            android:title="Home"></item>
+        <item
+            android:id="@+id/nav_android"
+            android:title="Android" />
+        <item
+            android:id="@+id/nav_Google"
+            android:title="Googel"></item>
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_instageam"
+            android:title="Instagram"></item>
+        <item
+            android:id="@+id/nav_twitter"
+            android:title="Twitter"></item>
+        <item
+            android:id="@+id/nav_site"
+            android:title="Visit Site"></item>
+    </group>
+</menu>
