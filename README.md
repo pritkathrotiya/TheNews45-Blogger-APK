@@ -10,7 +10,7 @@
 
 - public static final String key = "Your blog key";
 
-- public static final String url = "Your Blog Url";
+public static final String url = "Your Blog Url";
 
 - And all set!!!
 
