@@ -4,11 +4,12 @@ This is second relese of TheNews45 APK
 
 In this release, we do designing of app and some fix java code.
 
-This APK for public any one use this app without any copyright issue.
+This APK for public anyone use this app without any copyright issue.
 
 Download code and some change in this file app/src/main/java/com/pritkathrotiya/thenews45/BloggerAccessAPI.java
 
 public static final String key = "Your blog key";
+
 public static final String url = "Your Blog Url";
 
 And all set!!!
