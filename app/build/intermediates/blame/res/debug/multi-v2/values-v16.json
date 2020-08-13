@@ -4,17 +4,7 @@
             "outputFile": "D:\\Project\\Android\\TheNews45\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\d29a506a9baf87891884a8e5cad8977b\\core-1.1.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\03a498c9a204395a9f5406d80e4750ae\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\2937796591669d42c90f7ac96d93756f\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\95040a3433ac2f166894051c15b219d9\\core-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

@@ -1,4 +1,4 @@
-#Sun Aug 09 10:54:30 IST 2020
-base.0=D\:\\Project\\Android\\TheNews45\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Thu Aug 13 18:53:00 IST 2020
+base.0=D\:\\Project\\Android\\TheNews45\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="16dp"
-    android:elevation="6dp"
-    android:background="@drawable/postlist">
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,19 +29,21 @@
             style="@style/TextAppearance.AppCompat.Title"
             android:ellipsize="end"
             android:maxLines="3"
-            android:layout_marginTop="16dp">
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="4dp"
+            android:textFontWeight="500"
+            tools:targetApi="p">
         </TextView>
 
         <TextView
             android:id="@+id/post_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/TextAppearance.AppCompat.Body2"
+            style="@style/TextAppearance.AppCompat.Body1"
             android:ellipsize="end"
             android:maxLines="2"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="6dp">
         </TextView>
-
     </LinearLayout>
-
 </androidx.cardview.widget.CardView>

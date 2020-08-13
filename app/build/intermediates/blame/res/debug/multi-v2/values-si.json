@@ -4,7 +4,7 @@
             "outputFile": "D:\\Project\\Android\\TheNews45\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
             "map": [
                 {
-                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\03a498c9a204395a9f5406d80e4750ae\\appcompat-1.1.0\\res\\values-si\\values-si.xml",
+                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\2937796591669d42c90f7ac96d93756f\\appcompat-1.1.0\\res\\values-si\\values-si.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\d29a506a9baf87891884a8e5cad8977b\\core-1.1.0\\res\\values-si\\values-si.xml",
+                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\95040a3433ac2f166894051c15b219d9\\core-1.1.0\\res\\values-si\\values-si.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

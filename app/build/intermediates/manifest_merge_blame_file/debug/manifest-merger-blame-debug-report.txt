@@ -19,7 +19,7 @@
 14        android:allowBackup="true"
 14-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.1.0] D:\Application\Gradle\caches\transforms-2\files-2.1\d29a506a9baf87891884a8e5cad8977b\core-1.1.0\AndroidManifest.xml:24:18-86
+15-->[androidx.core:core:1.1.0] D:\Application\Gradle\caches\transforms-2\files-2.1\95040a3433ac2f166894051c15b219d9\core-1.1.0\AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
 17-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:9:9-43

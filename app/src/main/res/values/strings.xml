@@ -3,4 +3,7 @@
     <string name="owner_name">Prit Kathrotiya</string>
     <string name="splash">Created By</string>
     <string name="site">https://thenews45.blogspot.com/</string>
+    <string name="welcome">Welcome,</string>
+    <string name="update">Here are your updates</string>
+    <string name="blog_desc">TheNews45 help to find latest news about technology, laptop, smartphone, gadgets and more</string>
 </resources>

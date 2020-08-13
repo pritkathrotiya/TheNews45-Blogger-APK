@@ -5,14 +5,16 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@android:drawable/btn_star"
-            android:title="Home"></item>
+            android:icon="@drawable/home"
+            android:title="Home" />
         <item
             android:id="@+id/nav_android"
-            android:title="Android" />
+            android:title="Android"
+            android:icon="@drawable/android"/>
         <item
             android:id="@+id/nav_Google"
-            android:title="Googel"></item>
+            android:title="Googel"
+            android:icon="@drawable/google"/>
     </group>
 
     <group
@@ -20,12 +22,12 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_instageam"
-            android:title="Instagram"></item>
+            android:title="Instagram" />
         <item
             android:id="@+id/nav_twitter"
-            android:title="Twitter"></item>
+            android:title="Twitter"/>
         <item
             android:id="@+id/nav_site"
-            android:title="Visit Site"></item>
+            android:title="Visit Site"/>
     </group>
 </menu>

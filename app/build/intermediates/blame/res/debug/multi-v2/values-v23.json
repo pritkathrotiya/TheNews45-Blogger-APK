@@ -4,26 +4,7 @@
             "outputFile": "D:\\Project\\Android\\TheNews45\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\0ccda69917fe0dade9ee289ad3bf885d\\material-1.1.0\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,6",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,320",
-                        "endLines": "5,9",
-                        "endColumns": "10,10",
-                        "endOffsets": "315,588"
-                    },
-                    "to": {
-                        "startLines": "51,55",
-                        "startColumns": "4,4",
-                        "startOffsets": "3557,3822",
-                        "endLines": "54,58",
-                        "endColumns": "10,10",
-                        "endOffsets": "3817,4090"
-                    }
-                },
-                {
-                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\2c580c3f0272f4855bc1ca63dc624d33\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\15f6e30dcacf7d54246ab673cedbea15\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -42,7 +23,26 @@
                     }
                 },
                 {
-                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\03a498c9a204395a9f5406d80e4750ae\\appcompat-1.1.0\\res\\values-v23\\values-v23.xml",
+                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\426186a9cb0a9cabe7db0decbdf2d464\\material-1.1.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,320",
+                        "endLines": "5,9",
+                        "endColumns": "10,10",
+                        "endOffsets": "315,588"
+                    },
+                    "to": {
+                        "startLines": "51,55",
+                        "startColumns": "4,4",
+                        "startOffsets": "3557,3822",
+                        "endLines": "54,58",
+                        "endColumns": "10,10",
+                        "endOffsets": "3817,4090"
+                    }
+                },
+                {
+                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\2937796591669d42c90f7ac96d93756f\\appcompat-1.1.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

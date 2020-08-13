@@ -4,7 +4,7 @@
             "outputFile": "D:\\Project\\Android\\TheNews45\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\03a498c9a204395a9f5406d80e4750ae\\appcompat-1.1.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\2937796591669d42c90f7ac96d93756f\\appcompat-1.1.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

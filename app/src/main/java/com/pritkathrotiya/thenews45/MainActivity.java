@@ -8,10 +8,13 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AbsListView;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.github.ybq.android.spinkit.SpinKitView;
@@ -79,6 +82,8 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_android:
                         Toast.makeText(MainActivity.this, "Clicked Android", Toast.LENGTH_SHORT).show();
                         break;
+                    case R.id.nav_Google:
+                        Toast.makeText(MainActivity.this, "Clicked Google", Toast.LENGTH_SHORT).show();
                 }
                 return false;
             }
@@ -90,8 +95,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
-                if(newState == AbsListView.OnScrollListener.SCROLL_STATE_TOUCH_SCROLL)
-                {
+                if (newState == AbsListView.OnScrollListener.SCROLL_STATE_TOUCH_SCROLL) {
                     isScrolling = true;
                 }
             }
@@ -103,8 +107,7 @@ public class MainActivity extends AppCompatActivity {
                 totalItems = manager.getItemCount();
                 scrollOutItems = manager.findFirstVisibleItemPosition();
 
-                if(isScrolling && (currentItems + scrollOutItems == totalItems))
-                {
+                if (isScrolling && (currentItems + scrollOutItems == totalItems)) {
                     isScrolling = false;
                     getData();
                 }
@@ -114,10 +117,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void getData() {
         String url = BloggerAccessAPI.url + "?key=" + BloggerAccessAPI.key;
-        if(token != ""){
-            url = url+ "&pageToken="+ token;
+        if (token != "") {
+            url = url + "&pageToken=" + token;
         }
-        if(token == null){
+        if (token == null) {
             return;
         }
         progress.setVisibility(View.VISIBLE);
@@ -135,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<PostList> call, Throwable t) {
-                Toast.makeText(MainActivity.this, "Error", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Need Internet Access", Toast.LENGTH_LONG).show();
             }
         });
     }

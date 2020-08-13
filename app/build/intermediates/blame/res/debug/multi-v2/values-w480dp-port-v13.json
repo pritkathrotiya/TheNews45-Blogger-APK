@@ -4,7 +4,7 @@
             "outputFile": "D:\\Project\\Android\\TheNews45\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\0ccda69917fe0dade9ee289ad3bf885d\\material-1.1.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "source": "D:\\Application\\Gradle\\caches\\transforms-2\\files-2.1\\426186a9cb0a9cabe7db0decbdf2d464\\material-1.1.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -58,7 +58,9 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
                 Intent intent = new Intent(context, DetailActivity.class);
                 intent.putExtra("postTitle", item.getTitle());
                 intent.putExtra("postImage",element.get(0).attr("src"));
-                intent.putExtra("postDesc", document.text());
+                intent.putExtra("postDesc", document.toString());
+                intent.putExtra("postTag", item.getLabels().get(0));
+                intent.putExtra("postTime",item.getPublished());
                 context.startActivity(intent);
             }
         });

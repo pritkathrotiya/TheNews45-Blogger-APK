@@ -11,40 +11,97 @@
         android:layout_height="wrap_content">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
+            android:id="@+id/detailActivityToolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            tools:ignore="RtlHardcoded">
+            android:background="#fff"
+            android:elevation="2dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            tools:ignore="RtlHardcoded"
+            tools:targetApi="lollipop">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/back" />
+            <TextView
+                android:id="@+id/post_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:textColor="#000"
+                android:textSize="18sp"
+                style="@style/TextAppearance.AppCompat.Title"/>
         </androidx.appcompat.widget.Toolbar>
 
         <ImageView
             android:id="@+id/post_image_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/toolbar"
+            android:layout_below="@id/detailActivityToolbar"
             android:padding="14dp">
         </ImageView>
 
         <TextView
             android:id="@+id/post_title_detail"
+            style="@style/TextAppearance.AppCompat.Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/post_image_detail"
             android:padding="14dp"
-            style="@style/TextAppearance.AppCompat.Title">
+            android:lineSpacingExtra="6dp">
         </TextView>
 
-        <TextView
-            android:id="@+id/post_desc_detail"
+        <LinearLayout
+            android:id="@+id/post_time_author"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/post_title_detail"
+            android:orientation="horizontal"
+            android:layout_below="@+id/post_title_detail"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:background="@drawable/time"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="bottom"/>
+
+            <TextView
+                android:id="@+id/post_time"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                tools:targetApi="jelly_bean_mr1"
+                android:layout_marginRight="10dp"
+                android:gravity="bottom"/>
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:background="@drawable/man"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="bottom"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:text="@string/app_name"
+                android:gravity="bottom"/>
+        </LinearLayout>
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/post_desc_detail"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/post_time_author"
             android:padding="14dp"
-            style="@style/TextAppearance.AppCompat.Body2">
-        </TextView>
+            android:textSize="18sp"
+            android:lineSpacingExtra="8dp">
+        </org.sufficientlysecure.htmltextview.HtmlTextView>
     </RelativeLayout>
 </ScrollView>
