@@ -2,7 +2,6 @@ package com.pritkathrotiya.thenews45;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -26,6 +25,7 @@ public class DetailActivity extends AppCompatActivity {
     TextView postTag;
     TextView postTime;
     ImageButton imageButton;
+    ImageButton share;
 
     Whitelist whitelist = Whitelist.relaxed();
 
@@ -52,6 +52,7 @@ public class DetailActivity extends AppCompatActivity {
         postTime.setText(getIntent().getStringExtra("postTime").split("T")[0]);
 
         detailActivityToolbar();
+        share();
     }
 
     public void detailActivityToolbar() {
@@ -62,6 +63,21 @@ public class DetailActivity extends AppCompatActivity {
                 Intent intent = new Intent(DetailActivity.this,MainActivity.class);
                 startActivity(intent);
                 finish();
+            }
+        });
+    }
+
+    private void share() {
+        share = findViewById(R.id.share);
+        share.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+                sharingIntent.setType("text/plain");
+                String shareBody = getIntent().getStringExtra("postUrl");
+                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, getIntent().getStringExtra("postTag"));
+                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+                startActivity(Intent.createChooser(sharingIntent, "Share via"));
             }
         });
     }

@@ -19,9 +19,12 @@ com/pritkathrotiya/thenews45/BloggerAccessAPI.java
  com.pritkathrotiya.thenews45.BloggerAccessAPI$PostServices
 com/pritkathrotiya/thenews45/Replies.java
  com.pritkathrotiya.thenews45.Replies
+com/pritkathrotiya/thenews45/AboutUsActivity.java
+ com.pritkathrotiya.thenews45.AboutUsActivity
 com/pritkathrotiya/thenews45/DetailActivity.java
  com.pritkathrotiya.thenews45.DetailActivity
  com.pritkathrotiya.thenews45.DetailActivity$1
+ com.pritkathrotiya.thenews45.DetailActivity$2
 com/pritkathrotiya/thenews45/SplashActivity.java
  com.pritkathrotiya.thenews45.SplashActivity
  com.pritkathrotiya.thenews45.SplashActivity$1

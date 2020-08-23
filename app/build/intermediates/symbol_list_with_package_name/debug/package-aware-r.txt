@@ -1989,7 +1989,9 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable about
 drawable android
+drawable apple
 drawable avd_hide_password
 drawable avd_show_password
 drawable back
@@ -2007,6 +2009,9 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable facebook
+drawable follow_us_button
+drawable github
 drawable google
 drawable home
 drawable ic_calendar_black_24dp
@@ -2022,6 +2027,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable instagram
 drawable logo
 drawable man
 drawable mtrl_dialog_background
@@ -2046,11 +2052,16 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable round_button
+drawable setting
+drawable share
 drawable splash_background
 drawable test_custom_background
 drawable time
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable twitter
+drawable web
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2140,6 +2151,7 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id buttons
 id cancel_button
 id center
 id center_horizontal
@@ -2184,6 +2196,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id facebook
 id fade
 id fill
 id fill_horizontal
@@ -2195,13 +2208,13 @@ id fixed
 id forever
 id ghost_view
 id ghost_view_holder
+id github
 id give_us_a_review_landmine_button
 id give_us_a_review_landmine_main_layout
 id give_us_a_review_landmine_text_1
 id give_us_a_review_landmine_text_2
 id glide_custom_view_target_tag
 id gone
-id group1
 id group2
 id group_divider
 id groups
@@ -2213,6 +2226,7 @@ id icon_group
 id ifRoom
 id image
 id info
+id instagram
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -2254,13 +2268,9 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
-id nav_Google
-id nav_android
-id nav_home
-id nav_instageam
+id nav_about_us
 id nav_menu
-id nav_site
-id nav_twitter
+id nav_settings
 id navigation_header_container
 id never
 id noScroll
@@ -2319,6 +2329,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id share
 id shortcut
 id showCustom
 id showHome
@@ -2382,6 +2393,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id twitter
 id unchecked
 id uniform
 id unlabeled
@@ -2389,6 +2401,7 @@ id up
 id useLogo
 id view_offset_helper
 id visible
+id website
 id withText
 id wrap
 id wrap_content
@@ -2452,6 +2465,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_about_us
 layout activity_detail
 layout activity_main
 layout activity_splash
@@ -2569,8 +2583,12 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string facebook
+string follow
+string github
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string instagram
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_suffix
@@ -2615,7 +2633,9 @@ string search_menu_title
 string site
 string splash
 string status_bar_notification_info_overflow
+string twitter
 string update
+string visit_site
 string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

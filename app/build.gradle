@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.0"
     defaultConfig {
         applicationId "com.pritkathrotiya.thenews45"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -21,10 +21,15 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.0.2'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:25.3.1'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:25.3.1'
     implementation 'org.sufficientlysecure:html-textview:3.9'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'com.google.android.material:material:1.1.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:cardview-v7:25.3.1'
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
     implementation 'com.github.bumptech.glide:glide:4.11.0'

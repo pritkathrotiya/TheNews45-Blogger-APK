@@ -5,17 +5,17 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="14"
+8        android:minSdkVersion="15"
 8-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
 9-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:5:5-83
+11-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:5:5-67
 11-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:7:5-24:19
+13-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:7:5-25:19
 14        android:allowBackup="true"
 14-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,29 +29,31 @@
 19-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
 20-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme"
-22-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:13:9-40
-23        android:usesCleartextTraffic="true" >
-23-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:14:9-44
+21        android:theme="@style/AppTheme"
+21-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:13:9-40
+22        android:usesCleartextTraffic="true" >
+22-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:14:9-44
+23        <activity android:name="com.pritkathrotiya.thenews45.AboutUsActivity" />
+23-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:15:9-53
+23-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:15:19-50
 24        <activity android:name="com.pritkathrotiya.thenews45.DetailActivity" />
-24-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:15:9-61
-24-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:15:19-49
+24-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:16:9-52
+24-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:16:19-49
 25        <activity android:name="com.pritkathrotiya.thenews45.MainActivity" />
-25-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:16:9-50
-25-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:16:19-47
+25-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:17:9-50
+25-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:17:19-47
 26        <activity android:name="com.pritkathrotiya.thenews45.SplashActivity" >
-26-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:17:9-23:20
-26-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:17:19-49
+26-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:18:9-24:20
+26-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:18:19-49
 27            <intent-filter>
-27-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:18:13-22:29
+27-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:19:13-23:29
 28                <action android:name="android.intent.action.MAIN" />
-28-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:19:17-69
-28-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:19:25-66
+28-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:20:17-69
+28-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:20:25-66
 29
 30                <category android:name="android.intent.category.LAUNCHER" />
-30-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:21:17-77
-30-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:21:27-74
+30-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:22:17-77
+30-->D:\Project\Android\TheNews45\app\src\main\AndroidManifest.xml:22:27-74
 31            </intent-filter>
 32        </activity>
 33    </application>

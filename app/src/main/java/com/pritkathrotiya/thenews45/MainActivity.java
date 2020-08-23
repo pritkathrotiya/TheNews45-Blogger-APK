@@ -10,11 +10,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AbsListView;
-import android.widget.ImageButton;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.github.ybq.android.spinkit.SpinKitView;
@@ -76,14 +75,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
-                    case R.id.nav_home:
-                        Toast.makeText(MainActivity.this, "Clicked Home", Toast.LENGTH_SHORT).show();
+                    case R.id.nav_settings:
+                        Toast.makeText(MainActivity.this, "Clicked Setting", Toast.LENGTH_SHORT).show();
                         break;
-                    case R.id.nav_android:
-                        Toast.makeText(MainActivity.this, "Clicked Android", Toast.LENGTH_SHORT).show();
+                    case R.id.nav_about_us:
+                        startActivities(new Intent[]{new Intent(MainActivity.this, AboutUsActivity.class)});
+                        drawerLayout.closeDrawer(Gravity.LEFT, false);
                         break;
-                    case R.id.nav_Google:
-                        Toast.makeText(MainActivity.this, "Clicked Google", Toast.LENGTH_SHORT).show();
                 }
                 return false;
             }
@@ -129,8 +127,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<PostList> call, Response<PostList> response) {
                 PostList list = response.body();
-                items.addAll(list.getItems());
                 token = list.getNextPageToken();
+                items.addAll(list.getItems());
                 adapter.notifyDataSetChanged();
                 recyclerView.setAdapter(new PostAdapter(MainActivity.this, list.getItems()));
                 progress.setVisibility(View.GONE);

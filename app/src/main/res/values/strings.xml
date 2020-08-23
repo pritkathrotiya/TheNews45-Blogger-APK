@@ -6,4 +6,10 @@
     <string name="welcome">Welcome,</string>
     <string name="update">Here are your updates</string>
     <string name="blog_desc">TheNews45 help to find latest news about technology, laptop, smartphone, gadgets and more</string>
+    <string name="visit_site">Visit Website</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="github">GitHub</string>
+    <string name="follow">Follow Us On</string>
 </resources>

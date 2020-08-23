@@ -61,10 +61,11 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
                 intent.putExtra("postDesc", document.toString());
                 intent.putExtra("postTag", item.getLabels().get(0));
                 intent.putExtra("postTime",item.getPublished());
+                intent.putExtra("postUrl",item.getUrl());
                 context.startActivity(intent);
+
             }
         });
-
     }
 
     @Override

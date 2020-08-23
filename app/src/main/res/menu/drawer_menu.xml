@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group
-        android:id="@+id/group1"
-        android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/home"
-            android:title="Home" />
-        <item
-            android:id="@+id/nav_android"
-            android:title="Android"
-            android:icon="@drawable/android"/>
-        <item
-            android:id="@+id/nav_Google"
-            android:title="Googel"
-            android:icon="@drawable/google"/>
-    </group>
-
-    <group
         android:id="@+id/group2"
         android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_instageam"
-            android:title="Instagram" />
+            android:id="@+id/nav_about_us"
+            android:title="About Us"
+            android:icon="@drawable/about"/>
         <item
-            android:id="@+id/nav_twitter"
-            android:title="Twitter"/>
-        <item
-            android:id="@+id/nav_site"
-            android:title="Visit Site"/>
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/setting"/>
     </group>
 </menu>

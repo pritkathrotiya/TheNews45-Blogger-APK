@@ -21,7 +21,7 @@
       "properties": {
         "packageId": "com.pritkathrotiya.thenews45",
         "split": "",
-        "minSdkVersion": "14"
+        "minSdkVersion": "15"
       }
     }
   ]
